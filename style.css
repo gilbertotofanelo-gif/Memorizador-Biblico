@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c5aa0;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.controls input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.controls button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    background: #2c5aa0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #1e3d70;
+}
+
+.timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+.flashcard {
+    background: #e3f2fd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flashcard h2 {
+    color: #2c5aa0;
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+.flashcard p {
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin: 0;
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
