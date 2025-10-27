@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorizador Bíblico TNM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Memorizador de Versos Bíblicos (TNM)</h1>
+        
+        <div class="controls">
+            <label for="interval">Tempo de exposição (segundos):</label>
+            <input type="number" id="interval" value="10" min="1" max="60">
+            <button id="apply">Aplicar</button>
+            <button id="prev">Anterior</button>
+            <button id="next">Próximo</button>
+            <button id="pause">Pausar</button>
+        </div>
+        
+        <div class="timer">Tempo restante: <span id="timer-display">10</span>s</div>
+        
+        <div class="flashcard">
+            <h2 id="reference"></h2>
+            <p id="text"></p>
+        </div>
+        
+        <p class="footer">Baseado na Tradução do Novo Mundo (edição revisada). Adicione mais versos no script.js.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
